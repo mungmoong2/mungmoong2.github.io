@@ -255,6 +255,60 @@ body #wrap h1:before {
   background: #343a40
 }
 
+#competencies, #ps-competencies{
+  word-break: keep-all;
+}
+.skillData-Wrapper {
+    width: 100%;
+}
+
+#skillgraphWrapper-break {
+  display: inline-block;
+  position: relative;
+  width: 100%; }
+
+#skillgraphWrapper-break:after {
+  margin-left: 85px;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: -moz-calc(100% - 85px + 15px);
+  width: -webkit-calc(100% - 85px + 15px);
+  width: calc(100% - 85px + 15px);
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #000 2px, transparent 2px);
+  background-size: 10%;
+  background-color: rgba(255, 0, 0, 0.2); }
+
+#skillgraph {
+  padding: 1em;
+font-size: 1.3rem; }
+
+.skill-row-break {
+  border-color: red;
+  border-width: 2px;
+  border-style: solid; }
+
+.skill-row {
+  margin: 0 0 20px 0; }
+
+.skillLabel {
+  float: left;
+  width: 100%;
+  color: white; }
+
+.skillData, .skillData-Wrapper {
+  line-height: 0.1 0.7em;
+  height: 0.1 0.7em;
+  width: .1em;
+  float: left;
+  color: white;
+  text-align: center; }
+
+.skillData-Wrapper {
+  width: 100%; }
+
 
 .portfolio-item {
   display: block;
