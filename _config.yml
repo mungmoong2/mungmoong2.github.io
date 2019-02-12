@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jekyll Powered Start Bootstrap Template
+title: mungmoong2's portfolio
 email: bwa1214@gmail.com
 description: Stylish Portfolio is a responsive, one page portfolio theme for Bootstrap created by Start Bootstrap. The theme features multiple content sections with an off canvas navigation menu.
 
@@ -23,7 +23,6 @@ baseurl: "  " # the subpath of your site, e.g. /blog
 url: "https://mungmoong2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  mungmoong2
-google_analytics_tracking_id: UA-129738661-1
 # Build settings
 markdown: kramdown
 theme: minima
