@@ -1,10 +1,21 @@
+<!--
+    FILE NAME: header.html
+  DESCRIPTION: 헤더 부분을 정리하였습니다.
+-->
+
 <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-        <h1 class="mb-1">Stylish Portfolio</h1>
-        <h3 class="mb-5">
-          <em>A Free Bootstrap Theme by Start Bootstrap</em>
+  <div class="container my-auto text-white">
+    <div id='wrap'>
+      <div class='inner'>
+         <h1 data-splitting='words'>Web Programmer</h1>
         </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      </div>
+      <div class="overlay"></div>
     </div>
-    <div class="overlay"></div>
+  </div>
 </header>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+<script src="https://unpkg.com/splitting@1.0.5/dist/splitting.js"></script>
+<script>
+  Splitting();
+</script>
