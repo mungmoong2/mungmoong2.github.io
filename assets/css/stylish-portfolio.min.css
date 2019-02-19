@@ -258,6 +258,15 @@ body #wrap h1:before {
 #competencies, #ps-competencies{
   word-break: keep-all;
 }
+
+.bg-lightgray, .skillData-Wrapper {
+    background-color: black;
+}
+
+#competencies, #ps-competencies{
+  word-break: keep-all;
+}
+
 .skillData-Wrapper {
     width: 100%;
 }
