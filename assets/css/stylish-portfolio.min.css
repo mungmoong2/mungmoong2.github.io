@@ -156,7 +156,7 @@ body #wrap h1:before {
   transition: all .4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1d809f;
+  background: rgba(51, 59, 60, 0.9);
   border-left: 1px solid rgba(255, 255, 255, .1)
 }
 
@@ -174,7 +174,9 @@ body #wrap h1:before {
   display: block;
   text-decoration: none;
   color: #fff;
-  padding: 15px
+  padding: 25px;
+  font-weight:800;
+  font-size:1.3em;
 }
 
 .sidebar-nav li a:hover {
