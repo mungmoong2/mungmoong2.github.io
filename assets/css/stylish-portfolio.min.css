@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar
 {overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
-  top: 10px; /* Position the navbar at the top of the page */
+  top: 0px; /* Position the navbar at the top of the page */
 }
 .main-menu{width: 100%; height: 100%; opacity: 0; visibility: hidden;}
 .nav-open .main-menu {opacity: 1; visibility: visible; background: rgba(0, 0, 0, 0.92); }
