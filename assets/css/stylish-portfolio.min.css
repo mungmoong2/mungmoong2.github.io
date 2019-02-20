@@ -66,10 +66,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .masthead {
+min-height:40rem;
 position: relative;
 z-index:0
 }
-
+.bshadow{
+  background: linear-gradient(rgba(51,59,80,.4) , rgba(51, 59, 80, .4) );
+}
 #jarallax-container-0 {
 position: absolute;
 top: 0px;
@@ -87,12 +90,10 @@ max-width: none;
 position: fixed;
 top: 0px;
 left: 0px;
-width: 1060.8px;
-height: 661px;
+width: 100%;
+height: 100%;
 overflow: hidden;
 pointer-events: none;
-margin-top: 30.5px;
-transform: translate3d(0px, -230.5px, 0px);
 }
 
 @media (min-width:992px) {
