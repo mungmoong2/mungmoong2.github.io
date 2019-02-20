@@ -80,7 +80,7 @@ overflow: hidden;
 pointer-events: none;
 z-index: -100;
 }
-#jarallax-container-0 img{
+.masthead img{
 object-fit: cover;
 object-position: 50% 50%;
 max-width: none;
