@@ -85,8 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 .flex-center{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:100%}
 
 
-
-
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -530,6 +528,9 @@ font-size: 1.3rem; }
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem)
   }
+}
+#timeline{
+  background-color: rgb(43,47,42);
 }
 .main-timeline4{overflow:hidden;position:relative}
 .main-timeline4:before{content:"";width:5px;height:100%;background:#fff;position:absolute;top:10px;left:50%;transform:translateX(-50%)}
