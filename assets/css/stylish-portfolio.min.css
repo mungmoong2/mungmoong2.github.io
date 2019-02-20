@@ -88,8 +88,20 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .masthead {
-min-height:40rem;
-z-index:0
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  overflow : hidden;
+  width: 100%;
+  height: auto;
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(51, 59, 80, .4)), to(rgba(51, 59, 80, .4))), url(../img/bg-masthead.jpg);
+  background: linear-gradient(rgba(51,59,80,.4) , rgba(51, 59, 80, .4) ), url(../img/bg-masthead.jpg);
+  background-position: right center;
+  transform: translateZ(-1px) scale(2);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width:992px) {
@@ -116,7 +128,6 @@ body #wrap:before {
   height: 100%;
   background-color : rgba(51, 59, 60,0.8);
   background-size: cover;
-
 }
 
 body #wrap .inner{
