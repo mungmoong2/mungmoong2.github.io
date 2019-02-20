@@ -73,12 +73,12 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 898.4px;
-  height: 659.2px;
+  width: 1060.8px;
+  height: 661px;
   overflow: hidden;
   pointer-events: none;
-  margin-top: 7.4px;
-  transform: translate3d(0px, -8px, 0px);
+  margin-top: 30.5px;
+  transform: translate3d(0px, -30.5px, 0px);
 }
 
 
