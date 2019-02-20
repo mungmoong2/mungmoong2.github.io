@@ -85,26 +85,8 @@ h1, h2, h3, h4, h5, h6 {
 .flex-center{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:100%}
 
 
-.scroll-to-top {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  display: none;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, .5);
-  line-height: 45px
-}
 
-.scroll-to-top:focus, .scroll-to-top:hover {
-  color: #fff
-}
 
-.scroll-to-top:hover {
-  background: #343a40
-}
 
 .scroll-to-top i {
   font-weight: 800
