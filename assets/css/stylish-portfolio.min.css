@@ -184,6 +184,9 @@ body #wrap h1:before {
   padding-top : 100px;
   padding-bottom: 150px;
 }
+.resume h1{
+  font-size:2.5rem;
+}
 .menu-toggle {
   position: fixed;
   right: 15px;
