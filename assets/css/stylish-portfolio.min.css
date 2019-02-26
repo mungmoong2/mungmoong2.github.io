@@ -183,9 +183,13 @@ body #wrap h1:before {
   background-color: rgba(51, 59, 60, 0.9);
   padding-top : 100px;
   padding-bottom: 150px;
+
 }
 .resume h1{
   font-size:4.5rem;
+}
+.resume p{
+  line-height: 2.3rem;
 }
 .menu-toggle {
   position: fixed;
