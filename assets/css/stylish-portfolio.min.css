@@ -554,7 +554,11 @@ font-size: 1.3rem; }
   padding-bottom: 8rem;
   background-color: rgb(43,47,42);
 }
+.pptitle .rtitle{
+  font-weight: 400px;
+  font-size :24px;
 
+}
 #timeline{
   background-color: rgb(43,47,42);
 }
