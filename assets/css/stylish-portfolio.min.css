@@ -556,7 +556,9 @@ font-size: 1.3rem; }
 }
 .pptitle h1{
   font-size:120px
-
+}
+.pptitle hr{
+  color:white
 }
 #timeline{
   background-color: rgb(43,47,42);
