@@ -544,7 +544,7 @@ font-size: 1.3rem; }
 }
 
 .pptitle {
-  min-height: 30rem;
+  min-height: 42rem;
   position: relative;
   display: table;
   overflow : hidden;
