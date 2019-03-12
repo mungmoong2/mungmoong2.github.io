@@ -560,6 +560,13 @@ font-size: 1.3rem; }
 .pptitle hr{
   background-color:white
 }
+.ppcontent h1{
+  font-size:3rem;
+}
+.ppcontent p{
+  font-size:2rem;
+  font-weight: 4.5rem
+}
 #timeline{
   background-color: rgb(43,47,42);
 }
