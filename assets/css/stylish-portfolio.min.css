@@ -646,7 +646,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: gray;
   text-decoration: none
 }
 
