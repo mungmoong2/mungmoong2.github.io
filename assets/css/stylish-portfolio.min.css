@@ -504,7 +504,6 @@ font-size: 1.3rem; }
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
-  opacity:0
 }
 
 @media (min-width:992px) {
@@ -523,6 +522,7 @@ font-size: 1.3rem; }
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem
+    opacity:0
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path .25s ease-out;
@@ -538,8 +538,8 @@ font-size: 1.3rem; }
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem)
   }
-  .portfolio-item:hover .caption.caption-content p {
-    opacity: 1
+  .portfolio-item:hover .caption.caption-content  {
+    opacity: 100;
   }
 }
 #timeline{
