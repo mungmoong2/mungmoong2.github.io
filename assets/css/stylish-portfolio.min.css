@@ -493,7 +493,8 @@ font-size: 1.3rem; }
 
 .portfolio-item .caption .caption-content {
   color: #fff;
-  margin: auto 2rem 2rem
+  margin: auto 2rem 2rem;
+  opacity:0
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -538,7 +539,7 @@ font-size: 1.3rem; }
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem)
   }
-  .portfolio-item:hover .caption.caption-content  {
+  .portfolio-item:hover .caption-content  {
     opacity: 100;
   }
 }
