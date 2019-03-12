@@ -566,6 +566,9 @@ font-size: 1.3rem; }
 .ppcontent p{
   font-size:1.1rem;
 }
+.ppimage{
+  background-color: rgb(43,47,42);
+}
 .pparrow a{
   font-size:2.5rem;
 }
