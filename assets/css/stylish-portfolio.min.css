@@ -542,6 +542,18 @@ font-size: 1.3rem; }
     opacity: 100;
   }
 }
+
+.pptitle {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  overflow : hidden;
+  width: 100%;
+  height: auto;
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+}
+
 #timeline{
   background-color: rgb(43,47,42);
 }
