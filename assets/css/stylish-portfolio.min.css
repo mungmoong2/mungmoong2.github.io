@@ -566,9 +566,8 @@ font-size: 1.3rem; }
 .ppcontent p{
   font-size:1.1rem;
 }
-.pparrow i{
-  width:400px;
-  height:400px
+.pparrow a{
+  font-size:3rem;
 }
 #timeline{
   background-color: rgb(43,47,42);
